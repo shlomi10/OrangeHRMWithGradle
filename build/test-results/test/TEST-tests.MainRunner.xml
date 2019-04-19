@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.MainRunner" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-04-19T10:21:07" hostname="Shlomi-Desktop" time="18.094">
+  <properties/>
+  <testcase name="invalidLoginCredentialsTest" classname="tests.MainRunner" time="3.681"/>
+  <testcase name="validLoginCredentialsTest" classname="tests.MainRunner" time="1.452"/>
+  <testcase name="employeeListOrder" classname="tests.MainRunner" time="2.255"/>
+  <testcase name="addEmployee" classname="tests.MainRunner" time="0.909"/>
+  <testcase name="compareCreatedEmployee" classname="tests.MainRunner" time="4.209"/>
+  <testcase name="LeaveListTest" classname="tests.MainRunner" time="5.584"/>
+  <system-out><![CDATA[Tested with: 
+ Username:  Password:  
+ error messege: Username cannot be empty
+Tested with: 
+ Username:  Password: test 
+ error messege: Username cannot be empty
+Tested with: 
+ Username: adminn Password:  
+ error messege: Invalid credentials
+Tested with: 
+ Username: adminn Password: test 
+ error messege: Invalid credentials
+the rows number :3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
